@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dom Manipulation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <!-- for modal -->
+    <style type="text/css">
+      .c-modal{
+        width: 600px;
+        margin: auto !important;
+        box-shadow: rgb(100 100 111/20%) 0px 7px 29px 0px;
+        display: none;
+
+      }
+    </style>
+    <!-- for modal -->
+  </head>
+  
+  <body>
+
+    <!-- ##### Event ##### -->
+
+    <!-- <div class="container">
+      <div class="row">
+        <div class="col-md-4 offset-2">
+          <div class="card p-4 m-4">
+            <h1>01</h1>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> sed do eiusmod
+          </p>
+          <button id="btn">Download Now</button> -->
+
+          <!-- EVENT -->
+
+          <!-- ##### on mouse hover er khetre -->
+
+          <!-- FOR CHANGING COLOR -->
+          <!-- onmouseover="this.style.backgroundColor='red'" -->
+
+          <!-- START -->
+            <!-- <button id="btn"onmouseover="this.innerHTML='Downloading...'"
+
+
+            onmouseout="this.innerHTML='Download Now'" >Download Now</button> -->
+
+            <!-- ##### on click er khetre -->
+
+            <!-- <button id="btn"onclick="this.innerHTML='Downloading...'">Download Now</button> -->
+
+
+           <!-- ##### function er maddhome call korar khetre -->
+
+            <!-- <button id="btn"onclick="clicknow()">Download Now</button> -->
+            
+            <!-- function er nam only click dile click korle click ar kaj korena. so click er sathe onno ekti nam add korte hobe. onmouse out eo ar ekti function call kora jay -->
+<!-- 
+          </div>
+          
+        </div>
+
+        <div class="col-md-4">
+          <div class="card p-4 m-4 bg">
+            <h1>01</h1>
+            <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          </p>
+          <span style="color:red"></span>
+            <button>Download Now</button> -->
+            <!-- 22.20sec -->
+            
+      <!--     </div> 
+        </div>
+      </div> 
+    </div> -->
+
+
+    <!-- INCREMENT-DECREMENT -->
+
+
+   <!--  <div class="container d-flex justify-content-center align-items-center" style="height:100vh">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card m-5 p-5 text-center" style="width:400px">
+            <h1 id="value">10</h1>
+            <div>
+              <button class="btn btn-md btn-primary">Increment</button>
+              <button class="btn btn-md btn-danger">Decrement</button>
+            </div>
+            
+          </div>
+          <small id="warning" class="text-danger"></small>
+          
+        </div>
+        
+      </div>
+      
+    </div> -->
+
+
+    <!-- MODAL -->
+
+    
+
+      <button class="btn btn-md btn-info b">Click Here</button>
+
+      
+      <div class="c-modal p-5">
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.</p>
+        <button class="btn btn-md btn-info">Modal Button</button>
+      
+      
+      </div>
+
+     
+     
+
+   
+
+
+
+
+
+
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+    <!-- for only modal  -->
+
+    <script type="text/javascript">
+      var b=document.getElementsByClassName('b');
+     
+      b[0].addEventListener('click',function(){
+
+        document.getElementsByClassName('c-modal')[0].style.display='block';
+      });
+
+    </script>
+
+    <!-- for only modal -->
+
+
+
+    <!-- for others code -->
+
+    <!-- <script type="text/javascript" src="main.js"></script> -->
+
+    <!-- for others code -->
+  </body>
+</html>
